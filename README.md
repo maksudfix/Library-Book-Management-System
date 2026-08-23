@@ -14,47 +14,6 @@ A simple C# Console Application that manages a library's authors, books, availab
 * Track book availability
 * Use a continuous search menu until `0` is entered
 
-## Code Structure
-
-Author
- ├── Name
- ├── DateOfBirth
- ├── Bio
- ├── Books
- ├── DisplayAuthorInfo()
- └── AddAuthorBook()
-
-Book
- ├── Title
- ├── Author
- ├── ISBN
- ├── BookID
- ├── Genre
- ├── Price
- ├── IsAvailable
- └── DisplayBookInfo()
-
-Library
- ├── LibraryName
- ├── Location
- ├── ContactInfo
- ├── Books
- ├── DisplayLibraryDetails()
- ├── AddBookToLibrary()
- ├── RemoveBookFromLibrary()
- ├── SearchBook()
- ├── BorrowBook()
- ├── ReturnBook()
- └── BuyBook()
-
-LibraryBookManagementSystem
- └── Main()
-      ├── Create Authors
-      ├── Create Books
-      ├── Create Library
-      ├── Add Books
-      └── Search & Manage Books
-
 ## Concepts Used
 
 * Classes & Objects — Represents authors, books, and the library.
